@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="CARS. - Developed by Syed Muhammad Tayyab">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1026"/><stop offset=".55" stop-color="#1743e3"/><stop offset="1" stop-color="#0b1026"/>
+      <animate attributeName="x1" values="0;1;0" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9db4ff"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="c"><rect width="1200" height="320" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <!-- rhombus pattern -->
+    <g fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2">
+      <rect x="820" y="-120" width="300" height="300" transform="rotate(45 970 30)"><animateTransform attributeName="transform" type="rotate" from="45 970 30" to="405 970 30" dur="40s" repeatCount="indefinite"/></rect>
+      <rect x="900" y="150" width="220" height="220" transform="rotate(45 1010 260)"><animateTransform attributeName="transform" type="rotate" from="45 1010 260" to="-315 1010 260" dur="30s" repeatCount="indefinite"/></rect>
+      <rect x="60" y="200" width="140" height="140" transform="rotate(45 130 270)"/>
+    </g>
+    <!-- floating particles -->
+    <g fill="#fff" fill-opacity=".5">
+      <circle cx="140" cy="60" r="3"><animate attributeName="cy" values="60;280;60" dur="9s" repeatCount="indefinite"/></circle>
+      <circle cx="420" cy="270" r="2"><animate attributeName="cy" values="270;30;270" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="760" cy="40" r="2.5"><animate attributeName="cy" values="40;290;40" dur="11s" repeatCount="indefinite"/></circle>
+      <circle cx="1100" cy="90" r="3"><animate attributeName="cy" values="90;260;90" dur="8s" repeatCount="indefinite"/></circle>
+    </g>
+    <!-- speed lines -->
+    <g stroke="#fff" stroke-linecap="round" stroke-opacity=".35" stroke-width="3">
+      <line x1="0" y1="250" x2="120" y2="250"><animate attributeName="x1" values="-200;1300" dur="2.4s" repeatCount="indefinite"/><animate attributeName="x2" values="-80;1420" dur="2.4s" repeatCount="indefinite"/></line>
+      <line x1="0" y1="275" x2="80" y2="275"><animate attributeName="x1" values="-300;1200" dur="3.1s" repeatCount="indefinite"/><animate attributeName="x2" values="-220;1280" dur="3.1s" repeatCount="indefinite"/></line>
+    </g>
+    <!-- car silhouette -->
+    <g transform="translate(830 160)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate" values="830 160;850 160;830 160" dur="4s" repeatCount="indefinite"/>
+      <path d="M0 80 L30 38 Q40 22 62 22 L150 22 Q176 22 190 42 L230 54 Q252 58 254 78 L254 92 L0 92 Z" fill="#eaeaea" fill-opacity=".95"/>
+      <path d="M58 30 L92 30 L92 52 L36 52 Z M104 30 L146 30 Q164 32 176 52 L104 52 Z" fill="#1743e3"/>
+      <circle cx="62" cy="94" r="20" fill="#0b1026"/><circle cx="62" cy="94" r="9" fill="#ff7a3d"/>
+      <circle cx="198" cy="94" r="20" fill="#0b1026"/><circle cx="198" cy="94" r="9" fill="#ff7a3d"/>
+    </g>
+    <!-- text -->
+    <text x="70" y="128" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="74" font-weight="800" fill="url(#txt)" filter="url(#glow)">CARS.
+      <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/></text>
+    <text x="72" y="176" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="26" font-weight="500" fill="#cfe0ff">Car Dealing Experience. Redefined!
+      <animate attributeName="opacity" values="0;1" dur="2s" fill="freeze"/></text>
+    <rect x="72" y="206" width="420" height="40" rx="20" fill="#ffffff" fill-opacity=".14" stroke="#ffffff" stroke-opacity=".5"/>
+    <text x="282" y="232" text-anchor="middle" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="600" fill="#ffffff" letter-spacing="1">Developed by Syed Muhammad Tayyab</text>
+  </g>
+</svg>

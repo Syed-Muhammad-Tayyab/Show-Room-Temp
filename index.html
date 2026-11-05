@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cars. - a modern, animated car dealing landing page built with pure HTML5 and CSS3.">
+    <meta name="author" content="Syed Muhammad Tayyab">
+    <meta name="theme-color" content="#1743e3">
+    <title>Cars. | Car Dealing Experience Redefined</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Developed by credit bar -->
+    <div class="topbar">Developed by Syed Muhammad Tayyab</div>
+
+    <header class="header">
+        <a href="#home" class="logo">Cars.</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#review" style="--i:3">Review</a>
+            <a href="#featured" style="--i:4">Featured</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+
+        <div class="social-media">
+            <a href="#" style="--i:1" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" style="--i:2" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" style="--i:3" aria-label="Instagram"><i class="bx bxl-instagram-alt"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Car Dealing Experience.</h1>
+                <h3>Redefined!</h3>
+                <p>Discover premium cars, transparent pricing and a buying journey that feels effortless. From the first click to the final handshake, we make every mile of the process smooth.</p>
+                <a href="#featured" class="btn">Explore Cars</a>
+            </div>
+
+            <div class="home-img">
+                <div class="rhombus">
+                    <picture>
+                        <source srcset="assets/img/car.webp" type="image/webp">
+                        <img src="assets/img/car.png" alt="Blue sports car with orange wheels">
+                    </picture>
+                </div>
+            </div>
+
+            <div class="rhombus2"></div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="section-head reveal">
+                <span class="eyebrow">About us</span>
+                <h2>Driven by trust, powered by passion</h2>
+                <p>We connect people with the cars they love through honest advice, verified listings and a fully digital experience.</p>
+            </div>
+            <div class="stats">
+                <div class="stat reveal"><strong>1.2k+</strong><span>Cars delivered</span></div>
+                <div class="stat reveal"><strong>98%</strong><span>Happy customers</span></div>
+                <div class="stat reveal"><strong>25+</strong><span>Premium brands</span></div>
+                <div class="stat reveal"><strong>24/7</strong><span>Support</span></div>
+            </div>
+        </section>
+
+        <!-- REVIEW -->
+        <section class="section alt" id="review">
+            <div class="section-head reveal">
+                <span class="eyebrow">Reviews</span>
+                <h2>What our customers say</h2>
+            </div>
+            <div class="grid">
+                <article class="card reveal">
+                    <div class="stars">★★★★★</div>
+                    <p>"Smooth, fast and totally transparent. I found my dream car in a single afternoon."</p>
+                    <h4>Ayesha K.</h4>
+                </article>
+                <article class="card reveal">
+                    <div class="stars">★★★★★</div>
+                    <p>"The team explained every detail and never pushed me. Highly recommended."</p>
+                    <h4>Hamza R.</h4>
+                </article>
+                <article class="card reveal">
+                    <div class="stars">★★★★☆</div>
+                    <p>"Great selection and a beautiful website. The whole process felt premium."</p>
+                    <h4>Sara M.</h4>
+                </article>
+            </div>
+        </section>
+
+        <!-- FEATURED -->
+        <section class="section" id="featured">
+            <div class="section-head reveal">
+                <span class="eyebrow">Featured</span>
+                <h2>Handpicked for you</h2>
+            </div>
+            <div class="grid">
+                <article class="card car reveal">
+                    <img src="assets/img/car.webp" alt="Apex GT" loading="lazy">
+                    <h4>Apex GT</h4>
+                    <p>Track-bred power with everyday comfort.</p>
+                    <a href="#contact" class="btn small">Enquire</a>
+                </article>
+                <article class="card car reveal">
+                    <img src="assets/img/car.webp" alt="Nova S" loading="lazy" style="filter:hue-rotate(150deg)">
+                    <h4>Nova S</h4>
+                    <p>Sleek lines and a whisper-quiet cabin.</p>
+                    <a href="#contact" class="btn small">Enquire</a>
+                </article>
+                <article class="card car reveal">
+                    <img src="assets/img/car.webp" alt="Vortex R" loading="lazy" style="filter:hue-rotate(290deg)">
+                    <h4>Vortex R</h4>
+                    <p>Bold design built for the open road.</p>
+                    <a href="#contact" class="btn small">Enquire</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section alt" id="contact">
+            <div class="section-head reveal">
+                <span class="eyebrow">Contact</span>
+                <h2>Let's get you on the road</h2>
+                <p>Replace these placeholders with your real details.</p>
+            </div>
+            <div class="contact reveal">
+                <a href="mailto:hello@example.com"><i class="bx bx-envelope"></i> hello@example.com</a>
+                <a href="tel:+920000000000"><i class="bx bx-phone"></i> +92 000 0000000</a>
+                <a href="#"><i class="bx bx-map"></i> Islamabad, Pakistan</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="year">2026</span> Cars. All rights reserved.</p>
+        <p>Developed by <strong>Syed Muhammad Tayyab</strong></p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
